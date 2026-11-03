@@ -1,0 +1,18 @@
+{
+  "project": "Conviction Dial — Milestone 2",
+  "data_start": "2005-01-01",
+  "data_end_exclusive": "2026-11-01",
+  "out_of_sample_start": "2024-01-01",
+  "equity_universe": [
+    "XLB", "XLE", "XLF", "XLI", "XLK", "XLP", "XLU", "XLV", "XLY",
+    "QQQ", "IWM", "IJR", "IJH", "IWD", "IWF", "IVE", "IVW", "VNQ", "EFA", "EEM"
+  ],
+  "market_proxy": "SPY",
+  "bond_proxy": "AGG",
+  "lookback_momentum_days": 126,
+  "trend_ma_days": 200,
+  "top_n_assets": 5,
+  "initial_capital": 10000,
+  "trading_cost_bps": 0,
+  "risk_free_rate_annual": 0.0
+}
