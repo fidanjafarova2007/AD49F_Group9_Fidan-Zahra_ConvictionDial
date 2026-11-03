@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conviction-dial-milestone2"
+version = "0.2.0"
+description = "Reproducible ETF regime/momentum backtest with honest chronological evaluation."
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.1,<3", "matplotlib>=3.7,<4", "requests>=2.31,<3", "urllib3>=1.26.18,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]
